@@ -1,0 +1,147 @@
+# Build directories and outputs
+build/
+deploy/
+results/
+
+# Native build artifacts
+*.so
+*.dll
+*.dylib
+*.a
+*.o
+*.obj
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Java/Kotlin build artifacts
+*.class
+*.jar
+!gradle-wrapper.jar
+target/
+out/
+.gradle/
+kotlin-app/build/
+kotlin-app/.gradle/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Model files (large binary files)
+models/
+*.gguf
+*.bin
+*.model
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python cache (if any Python tools are used)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node modules (if any JS tools are used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test coverage reports
+coverage/
+*.coverage
+.nyc_output
+
+# Temporary test directories
+test_*/
+*_test_*
+
+# Gradle specific
+gradle-app.setting
+!gradle-wrapper.properties
+
+# IntelliJ specific
+*.iml
+*.ipr
+*.iws
+
+# Eclipse specific
+.metadata
+.classpath
+.project
+.settings/
+
+# NetBeans specific
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
